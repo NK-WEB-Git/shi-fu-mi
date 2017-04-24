@@ -1,0 +1,40 @@
+<!DOCtYPE html>
+<html>
+    <head>
+       <meta charset="utf-8">
+        <title>SHI FU MI</title>
+        <link rel="stylesheet" href="vendor/normalize.css">
+        <script src="https://use.fontawesome.com/1ed9b4c7dc.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Shi fu mi</h1>
+            <div class="choices">
+                <a id="rock" href="#">
+                    <i class="fa fa-hand-rock-o fa-5x" aria-hidden="true"></i>
+                    <span class="choice-name">pierre</span>
+                </a>
+                <a id="paper" href="#">
+                    <i class="fa fa-hand-paper-o fa-5x" aria-hidden="true"></i>
+                    <span class="choice-name">feuille</span>
+                </a>
+                <a id="scissor" href="#">
+                    <i class="fa fa-hand-scissors-o fa-5x" aria-hidden="true"></i>
+                    <span class="choice-name">ciseau</span>
+                </a>
+            </div>
+            <div id="battle" class="battle">
+            </div>
+            <div class="footer">
+                <h2>score</h2>
+                <ul>
+                    <li>joueur : <span id="win"></span></li>
+                    <li>ordinateur : <span id="lost"></span></li>
+                </ul>
+            </div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
